@@ -4,12 +4,19 @@
     "guzzlehttp/psr7": "^2.0",
     "goetas-webservices/soap-client": "dev-master",
     "goetas-webservices/soap-server": "^0.1",
-    "goetas-webservices/xsd2php-runtime":"^0.2.2",
+    "goetas-webservices/xsd2php-runtime": "^0.2.2",
     "symfony/event-dispatcher": "4.4.0",
     "symfony/console": "4.4.0"
   },
   "require-dev": {
-    "goetas-webservices/xsd2php":"^0.4",
+    "roave/security-advisories": "dev-latest",
+    "goetas-webservices/xsd2php": "0.4.5",
     "goetas-webservices/wsdl2php": "^0.5.1"
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/b2bcenter/xsd2php"
+    }
+  ]
 }

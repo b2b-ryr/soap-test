@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<t:TestRequest xmlns:t="http://schemas.xmlsoap.org/soap/test/">
+    <Header>
+        <integrationID>1</integrationID>
+        <senderSystem>s</senderSystem>
+    </Header>
+    <Header>
+        <integrationID>2</integrationID>
+        <senderSystem>r</senderSystem>
+    </Header>
+</t:TestRequest>

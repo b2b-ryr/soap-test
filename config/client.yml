@@ -8,4 +8,4 @@ soap_client:
   naming_strategy: short
   path_generator: psr4
   metadata:
-    'resources/schema/client.wsdl': ~
+    'resources/schema/server.wsdl': ~
