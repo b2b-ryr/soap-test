@@ -1,0 +1,11 @@
+soap_client:
+  namespaces:
+    'http://schemas.xmlsoap.org/soap/test/': 'Schema\Client\Test'
+  destinations_php:
+    'Schema\Client\Test': src/Schema/Client/Test
+  destinations_jms:
+    'Schema\Client\Test': resources/jms/client
+  naming_strategy: short
+  path_generator: psr4
+  metadata:
+    'resources/schema/client.wsdl': ~

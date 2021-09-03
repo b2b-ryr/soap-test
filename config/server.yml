@@ -1,0 +1,9 @@
+soap_server:
+  namespaces:
+    'http://schemas.xmlsoap.org/soap/test/': 'Schema\Server\Test'
+  destinations_php:
+    'Schema\Server\Test': src/Schema/Server/Test
+  destinations_jms:
+    'Schema\Server\Test': resources/jms/server
+  metadata:
+    'resources/schema/server.wsdl': ~

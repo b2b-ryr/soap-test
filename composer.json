@@ -1,0 +1,15 @@
+{
+  "require": {
+    "guzzlehttp/guzzle": "^7.3",
+    "guzzlehttp/psr7": "^2.0",
+    "goetas-webservices/soap-client": "dev-master",
+    "goetas-webservices/soap-server": "^0.1",
+    "goetas-webservices/xsd2php-runtime":"^0.2.2",
+    "symfony/event-dispatcher": "4.4.0",
+    "symfony/console": "4.4.0"
+  },
+  "require-dev": {
+    "goetas-webservices/xsd2php":"^0.4",
+    "goetas-webservices/wsdl2php": "^0.5.1"
+  }
+}

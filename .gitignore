@@ -1,0 +1,5 @@
+/resources/jms
+/vendor
+/src/Schema
+composer.lock
+composer.phar

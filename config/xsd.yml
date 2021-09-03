@@ -1,0 +1,9 @@
+xsd2php:
+  namespaces:
+    'http://schemas.xmlsoap.org/soap/test/': 'Schema\Xsd\Test'
+  destinations_php:
+    'Schema\Xsd\Test': src/Schema/Xsd/Test
+  destinations_jms:
+    'Schema\Xsd\Test': resources/jms/xsd
+  naming_strategy: short
+  path_generator: psr4
